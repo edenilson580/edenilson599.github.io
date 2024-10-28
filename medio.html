@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="facil.css">
+    <title>Nivel Medio</title>
+</head>
+<body>
+    <img src="logo edenilson.png" alt="Marca de Agua" class="watermark">
+    <div class="container">
+        <div class="title">Nivel Medio</div>
+        <div class="pregunta" id="pregunta">¿Cuánto es 12 - 4?</div>
+        
+        <div class="opciones">
+            <div class="opcion" onclick="verificarRespuesta('8')">8</div>
+            <div class="opcion" onclick="verificarRespuesta('7')">7</div>
+            <div class="opcion" onclick="verificarRespuesta('6')">6</div>
+        </div>
+
+        <div id="temporizador" class="temporizador">25</div>
+
+        <div id="puntosGanados" class="puntos">Puntos almacenados: 0</div>
+
+        <a href="game.html" class="back-link">Volver</a>
+        <div id="estadoJugador" class="estado-jugador"></div>
+    </div>
+    <script src="js/medio.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('fondoazul.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 3px solid black;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.title:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.mensaje, .puntos {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.back-link {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 3px solid black;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.watermark {
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+    width: 100px;
+    height: auto;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
